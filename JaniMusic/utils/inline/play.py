@@ -61,14 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
                 [
-         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        # InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="Update", url="https://t.me/Jani_RP"),
+       #  InlineKeyboardButton(text="Update", url="https://t.me/Jani_RP"),
         # InlineKeyboardButton(text="Owner", url="http://t.me/Jani_RP_Lover"),
-         InlineKeyboardButton(text="Support", url="https://t.me/+AaI_GATiYwQ5NjU1"),
+        # InlineKeyboardButton(text="Support", url="https://t.me/+AaI_GATiYwQ5NjU1"),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
     ]
     return buttons
 
@@ -76,11 +77,12 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-         InlineKeyboardButton(text="Update", url="https://t.me/Jani_RP"),
+        # InlineKeyboardButton(text="Update", url="https://t.me/Jani_RP"),
        #  InlineKeyboardButton(text="Owner", url="http://t.me/Jani_RP_Lover"),
-         InlineKeyboardButton(text="Support ", url="https://t.me/+AaI_GATiYwQ5NjU1"),
+         #InlineKeyboardButton(text="Support ", url="https://t.me/+AaI_GATiYwQ5NjU1"),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
     ]
     return buttons
 
