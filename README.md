@@ -1,5 +1,5 @@
 <h2 align="center">
-    𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ] 🕊
+    𝐁ᴀʙᴜʟ 𔘓 𝐌ᴜsɪs™ [ 𝐍ᴏ 𝐀ᴅs ] 🕊
 </h2>
 
 <h3 align="center">
